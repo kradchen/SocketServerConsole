@@ -39,9 +39,9 @@ DWORD SimpleCompletePort::workThreadFunction(LPVOID lpParam)
 	while (true)
 	{
 		DWORD byteCount;
-		PULONG_PTR ptr;
+		void* ptr;
 		LPOVERLAPPED *over = NULL;
-		if (GetQueuedCompletionStatus(HANDLE(lpParam), &byteCount, ptr, over, INFINITE))
+		if (GetQueuedCompletionStatus((HANDLE)lpParam, &byteCount, (PULONG_PTR)ptr, over, INFINITE))
 		{
 
 		}
