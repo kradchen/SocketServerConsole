@@ -160,10 +160,11 @@ using namespace KSocketLib;
 class SimpleSocket
 {
 public:
-	SimpleSocket();
+	SimpleSocket(SOCKET s = INVALID_SOCKET) :sock(s) {};
 	~SimpleSocket();
+
 private:
-	SOCKET sock = INVALID_SOCKET;
+	SOCKET sock;
 	static ActionResult<SOCKET> createSocket(AFFamily family = AFFamily::INET, SocketType sockType= SocketType::STREAM, Protocol protocol =Protocol::TCP);
 };
 
