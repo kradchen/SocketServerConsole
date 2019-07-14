@@ -69,7 +69,7 @@ int __cdecl main(int argc, char **argv)
 			WSACleanup();
 			return 1;
 		}
-
+		
 		// Connect to server.
 		iResult = connect(ConnectSocket, ptr->ai_addr, (int)ptr->ai_addrlen);
 		if (iResult == SOCKET_ERROR) {

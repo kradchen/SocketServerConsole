@@ -106,7 +106,6 @@ int main()
 	if (WSACleanup() == SOCKET_ERROR)
 	{
 		printf("WAS clean up failed! Error code:%d", WSAGetLastError());	
-		WSACleanup();
 		return -1;
 	}
     return 0;

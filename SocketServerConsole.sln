@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocketServerConsole", "Sock
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocketClientConsole", "SocketClientConsole\SocketClientConsole.vcxproj", "{19F7E7FC-0677-4428-95F0-D543AF516E07}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KSocketLib", "KSocketLib\KSocketLib.vcxproj", "{589C91B0-755E-4F14-BC34-04170C46CCE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{19F7E7FC-0677-4428-95F0-D543AF516E07}.Release|x64.Build.0 = Release|x64
 		{19F7E7FC-0677-4428-95F0-D543AF516E07}.Release|x86.ActiveCfg = Release|Win32
 		{19F7E7FC-0677-4428-95F0-D543AF516E07}.Release|x86.Build.0 = Release|Win32
+		{589C91B0-755E-4F14-BC34-04170C46CCE2}.Debug|x64.ActiveCfg = Debug|x64
+		{589C91B0-755E-4F14-BC34-04170C46CCE2}.Debug|x64.Build.0 = Debug|x64
+		{589C91B0-755E-4F14-BC34-04170C46CCE2}.Debug|x86.ActiveCfg = Debug|Win32
+		{589C91B0-755E-4F14-BC34-04170C46CCE2}.Debug|x86.Build.0 = Debug|Win32
+		{589C91B0-755E-4F14-BC34-04170C46CCE2}.Release|x64.ActiveCfg = Release|x64
+		{589C91B0-755E-4F14-BC34-04170C46CCE2}.Release|x64.Build.0 = Release|x64
+		{589C91B0-755E-4F14-BC34-04170C46CCE2}.Release|x86.ActiveCfg = Release|Win32
+		{589C91B0-755E-4F14-BC34-04170C46CCE2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
